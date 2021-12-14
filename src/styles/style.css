@@ -1,0 +1,74 @@
+.app {
+    text-align: center;
+}
+
+.header {
+    padding: 1rem;
+}
+
+button {
+    padding: 0.8rem 0;
+    width: 80px;
+    border: none;
+    border-radius: 0.7em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: skyblue;
+}
+
+.btn-signin {
+    background-color: tomato;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+label {
+    display: block;
+    padding: 0.5rem 0.2rem;
+}
+
+input {
+    padding: 0.6rem;
+    border-radius: 0.45rem;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+form {
+    text-align: left;
+    background-color: darkgrey;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+}
+
+.sbmt {
+    margin: 0.5rem 0;
+    background-color: lightgreen;
+}
+
+.div-btn {
+    text-align: center;
+}
