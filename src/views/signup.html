@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>SignUp</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="header"><h1>Sign Up | Log In Flow</h1></div>
+            <div class="form-box">
+                <form action="/signup" method="post" name="signup-form">
+                    <input type="hidden" name="_csrf" value="${csrfToken}" />
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" />
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" />
+                    <label for="Pass">Password</label>
+                    <input type="password" name="Pass" />
+                    <div class="div-btn">
+                        <button type="submit" class="sbmt">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
