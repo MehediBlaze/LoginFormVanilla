@@ -1,0 +1,26 @@
+{
+    "name": "loginsession",
+    "version": "1.0.0",
+    "description": "Login/SignUp using Session",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main",
+        "dev": "nodemon main"
+    },
+    "author": "Mehedi",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "cookie-parser": "^1.4.6",
+        "csurf": "^1.11.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-es6-template-engine": "^2.2.3",
+        "express-session": "^1.17.2",
+        "mongodb": "^4.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
